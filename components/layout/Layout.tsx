@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from '@/components/header/Header'
 
 interface Props {
   children: React.ReactNode;
@@ -13,7 +14,7 @@ export default function Index({ children }: Props): JSX.Element {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header></header>
+      <Header />
       <main>
         {children}
       </main>
