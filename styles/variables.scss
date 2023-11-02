@@ -1,3 +1,19 @@
-$whiteone: #FFFFFF;
+$white: #FFFFFF;
+$black: #000000;
+$brand600: #7F56D9;
+$brandlight: #F5F0FD;
+$gray700: #344054;
+$gray800: #182230;
+$gray50: #F9FAFB;
 
-$blackone: #000000;
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin inlineflex {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
