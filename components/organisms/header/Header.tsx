@@ -15,9 +15,10 @@ const index = () => {
                             <li><a href="">Marketplace</a></li>
                             <li><a href="">My Assets</a></li>
                         </ul>
-                        <ProfileButton />
+                        <ProfileButton />                        
                         <Image src='/header/shoppingCart.svg' alt='logo' width={24} height={24} />
                     </nav>
+                    <Image className={styles.toggleIcon} src='/toggleIcon.svg' alt='logo' width={24} height={24} />
                 </div>
             </div>
         </header>
