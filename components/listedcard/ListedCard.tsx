@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from './listedcard.module.scss'
+import styles from './ListedCard.module.scss'
 
 const ListedCard = () => {
   return (
