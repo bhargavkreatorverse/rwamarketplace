@@ -1,3 +1,28 @@
-$whiteone: #FFFFFF;
+$white: #FFFFFF;
+$black: #000000;
+$blacktwo: #111111;
+$brand600: #7F56D9;
+$brandlight: #F5F0FD;
+$gray700: #344054;
+$gray800: #182230;
+$gray50: #F9FAFB;
+$gray200: #EAECF0;
+$gray600: #475467;
+$gray25: #FCFCFD;
+$gray900: #101828;
+$gray300: #D0D5DD;
+$error25: #FFFBFA;
+$success500: #17B26A;
+$success300: #75E0A7;
 
-$blackone: #000000;
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin inlineflex {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

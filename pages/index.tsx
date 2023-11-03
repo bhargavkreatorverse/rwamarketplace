@@ -1,7 +1,11 @@
+import BannerSection from "@/components/organisms/bannersection/BannerSection";
+import FixedIncomeDealsSection from "@/components/organisms/fixedincomedealssection/FixedIncomeDealsSection";
+
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <BannerSection />
+      <FixedIncomeDealsSection />
     </>
   )
 }
