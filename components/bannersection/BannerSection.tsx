@@ -1,3 +1,5 @@
+import FeatureCard from '../featurecard/FeatureCard'
+import FeatureCardContainer from '../featurecardcontainer/FeatureCardContainer'
 import ListedCard from '../listedcard/ListedCard'
 import styles from './BannerSection.module.scss'
 
@@ -6,7 +8,8 @@ const BannerSection = () => {
         <section className={styles.bannerSection}>
             <div className="container">
                 <div className={styles.bannerWrapper}>
-                    <ListedCard />                    
+                    <ListedCard />
+                    <FeatureCardContainer />
                 </div>
             </div>
         </section>
