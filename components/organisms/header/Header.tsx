@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import ProfileButton from '@/components/profilebutton/ProfileButton'
+import ProfileButton from '@/components/atoms/profilebutton/ProfileButton'
 import styles from './Header.module.scss'
 
 const index = () => {

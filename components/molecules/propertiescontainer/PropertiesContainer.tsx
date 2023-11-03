@@ -1,4 +1,4 @@
-import PropertiesCard from '../propertiescard/PropertiesCard'
+import PropertiesCard from '../../atoms/propertiescard/PropertiesCard'
 import styles from './PropertiesContainer.module.scss'
 
 const PropertiesContainer = () => {

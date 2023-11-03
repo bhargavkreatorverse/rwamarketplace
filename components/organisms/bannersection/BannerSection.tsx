@@ -1,5 +1,5 @@
-import FeatureCardContainer from '../featurecardcontainer/FeatureCardContainer'
-import ListedCard from '../listedcard/ListedCard'
+import FeatureCardContainer from '../../molecules/featurecardcontainer/FeatureCardContainer'
+import ListedCard from '../../atoms/listedcard/ListedCard'
 import styles from './BannerSection.module.scss'
 
 const BannerSection = () => {

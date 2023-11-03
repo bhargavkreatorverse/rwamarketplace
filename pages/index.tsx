@@ -1,5 +1,5 @@
-import BannerSection from "@/components/bannersection/BannerSection";
-import FixedIncomeDealsSection from "@/components/fixedincomedealssection/FixedIncomeDealsSection";
+import BannerSection from "@/components/organisms/bannersection/BannerSection";
+import FixedIncomeDealsSection from "@/components/organisms/fixedincomedealssection/FixedIncomeDealsSection";
 
 export default function Home() {
   return (

@@ -1,4 +1,4 @@
-import FeatureCard from '../featurecard/FeatureCard'
+import FeatureCard from '../../atoms/featurecard/FeatureCard'
 import styles from './FeatureCardContainer.module.scss'
 
 const FeatureCardContainer = () => {

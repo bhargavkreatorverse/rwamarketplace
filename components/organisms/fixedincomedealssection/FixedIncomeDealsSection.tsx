@@ -1,5 +1,5 @@
-import SectionHeadingWrapper from '../sectionheadingwrapper/SectionHeadingWrapper'
-import PropertiesContainer from '../propertiescontainer/PropertiesContainer'
+import SectionHeadingWrapper from '../../molecules/sectionheadingwrapper/SectionHeadingWrapper'
+import PropertiesContainer from '../../molecules/propertiescontainer/PropertiesContainer'
 import styles from './FixedIncomeDealsSection.module.scss'
 
 const FixedIncomeDealsSection = () => {
