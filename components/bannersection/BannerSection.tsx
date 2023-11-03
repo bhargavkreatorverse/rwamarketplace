@@ -1,4 +1,3 @@
-import FeatureCard from '../featurecard/FeatureCard'
 import FeatureCardContainer from '../featurecardcontainer/FeatureCardContainer'
 import ListedCard from '../listedcard/ListedCard'
 import styles from './BannerSection.module.scss'

@@ -1,0 +1,17 @@
+@import '@/styles/variables.scss';
+
+.sectionHeadingWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 16px;
+    padding-bottom: 24px;
+
+    h2 {
+        margin-right: auto;
+        color: $gray900;
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 30px;
+    }
+}
