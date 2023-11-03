@@ -14,6 +14,4 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ bgImage, heading }) => {
     </div>
   );
 };
-
 export default FeatureCard;
-
