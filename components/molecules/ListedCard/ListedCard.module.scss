@@ -27,27 +27,6 @@
     position: relative;
 }
 
-.listedTextBox {
-    flex-basis: calc(50% - 38px);
-    text-align: center;
-    padding-block: 10px;
-
-    p {
-        color: $gray200;
-        font-size: 1.4rem;
-        font-weight: 400;
-        line-height: 20px;
-        padding-bottom: 8px;
-    }
-
-    h3 {
-        color: $white;
-        font-size: 3rem;
-        font-weight: 700;
-        line-height: 38px;
-    }
-}
-
 .listedCardImage {
     position: absolute;
     bottom: 0;
@@ -84,18 +63,6 @@
     .listedCardWrapper {
         padding: 90px;
     }
-
-    .listedTextBox {
-        p {
-            font-size: 1.5rem;
-            line-height: 22px;
-        }
-
-        h3 {
-            font-size: 3.3rem;
-            line-height: 42px;
-        }
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -106,18 +73,6 @@
 
     .listedTextWrapper {
         gap: 17px 24px;
-    }
-
-    .listedTextBox {
-        p {
-            font-size: 1.2rem;
-            line-height: 18px;
-        }
-
-        h3 {
-            font-size: 2rem;
-            line-height: 30px;
-        }
     }
 }
 

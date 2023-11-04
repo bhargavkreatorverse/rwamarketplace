@@ -1,7 +1,6 @@
-import Image from 'next/image';
 import styles from './SectionHeadingWrapper.module.scss';
-import ArrowButton from '../../atoms/arrowbutton/ArrowButton';
-import ViewAllButton from '../../atoms/viewallbutton/ViewallButton';
+import ArrowButton from '../../atoms/ArrowButton/ArrowButton';
+import ViewAllButton from '../../atoms/ViewAllButton/ViewallButton';
 
 interface SectionHeadingWrapperProps {
     HeadingText: string;

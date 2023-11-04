@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Header from '@/components/organisms/header/Header'
+import Header from '@/components/organisms/Header/Header'
 
 interface Props {
   children: React.ReactNode;
