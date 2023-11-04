@@ -16,7 +16,17 @@
     }
 }
 
+@media screen and (max-width: 991px) {
+    .bannerSection {
+        padding-block: 25px 40px;
+    }
+}
+
 @media screen and (max-width: 768px) {
+    .bannerSection {
+        padding-block: 20px 30px;
+    }
+
     .bannerWrapper {
         gap: 20px;
     }

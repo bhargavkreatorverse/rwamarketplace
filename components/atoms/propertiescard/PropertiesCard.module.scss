@@ -12,7 +12,7 @@
 }
 
 .propertiesImageWrapper {
-    padding-top: 20px;
+    position: relative;
 }
 
 .propertiesImageContent {
@@ -23,12 +23,12 @@
 }
 
 .propertiesLableWrapper {
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 20px;
-    margin-bottom: -45px;
+    width: 100%;
+    padding: 20px 20px 0;
 }
 
 .propertiesLable {
@@ -50,6 +50,7 @@
 }
 
 .propertiesContentWrapper {
+    position: relative;
     padding-inline: 12px;
     margin-top: -14px;
 
@@ -102,13 +103,8 @@
         min-height: auto;
     }
 
-    .propertiesImageWrapper {
-        padding-top: 22px;
-    }
-
     .propertiesLableWrapper {
-        padding-inline: 22px;
-        margin-bottom: -47px;
+        padding: 22px 22px 0;
     }
 
     .propertiesLable {
@@ -157,13 +153,8 @@
         width: 272px;
     }
 
-    .propertiesImageWrapper {
-        padding-top: 16px;
-    }
-
     .propertiesLableWrapper {
-        padding-inline: 17px;
-        margin-bottom: -41px;
+        padding: 16px 17px 0;
     }
 
     .propertiesLable {
