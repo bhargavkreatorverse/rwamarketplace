@@ -1,0 +1,33 @@
+@import '@/styles/variables.scss';
+
+.bannerSection {
+    padding-block: 40px;
+}
+
+.bannerWrapper {
+    display: flex;
+    gap: 28px;
+}
+
+@media screen and (max-width: 1100px) {
+    .bannerWrapper {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .bannerSection {
+        padding-block: 25px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bannerSection {
+        padding-block: 20px 30px;
+    }
+
+    .bannerWrapper {
+        gap: 20px;
+    }
+}

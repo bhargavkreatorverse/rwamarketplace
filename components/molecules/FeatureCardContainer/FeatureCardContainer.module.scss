@@ -1,0 +1,32 @@
+.featurecardsWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+@media screen and (max-width: 1300px) {
+    .featurecardsWrapper {
+        flex-basis: 45%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .featurecardsWrapper {
+        flex-wrap: nowrap;
+        flex-basis: 100%;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .featurecardsWrapper {
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .featurecardsWrapper {
+        gap: 20px;
+    }
+}

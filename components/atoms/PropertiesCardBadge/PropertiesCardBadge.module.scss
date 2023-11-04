@@ -1,0 +1,31 @@
+@import '@/styles/variables.scss';
+
+.propertiesLable {
+    padding: 2px 9px;
+    border-radius: 6px;
+    border: 1px solid $gray300;
+    background: $error25;
+    color: $gray700;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 20px;
+
+    &:first-of-type {
+        border-radius: 6px;
+        border: 1px solid $success300;
+        background: $success500;
+        color: $gray25;
+    }
+
+    @media screen and (max-width: 992px) {
+        padding: 4px 10px;
+        font-size: 1.5rem;
+        line-height: 22px;
+    }
+
+    @media screen and (max-width: 578px) {
+        padding: 2px 8px;
+        font-size: 1rem;
+        line-height: 16px;
+    }
+}

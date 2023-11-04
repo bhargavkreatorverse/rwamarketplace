@@ -1,0 +1,11 @@
+@import '@/styles/variables.scss';
+
+.fixedIncomeDealsSection {
+    padding-bottom: 44px;
+
+    @media screen and (max-width: 768px) {
+        [class*='Arrow'] {
+            display: none;
+        }
+    }
+}
