@@ -3,5 +3,10 @@
 .propertiesContainer {
     display: flex;
     justify-content: space-between;
-    gap: 27px;
+    gap: 29px;
+    overflow-x: scroll;
+
+    @media screen and (max-width: 578px) {
+        gap: 17px;
+    }
 }

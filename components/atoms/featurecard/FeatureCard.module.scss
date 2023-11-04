@@ -43,3 +43,26 @@
     height: auto;
     border-bottom-right-radius: 20px;
 }
+
+@media screen and (max-width: 1100px) {
+    .featuredCardWrapper {
+        width: 326px;
+        height: 382px;
+        flex-basis: unset;
+        flex-shrink: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .featuredCardWrapper {
+        width: 273px;
+        height: 320px;
+        padding: 27px;
+
+        h3 {
+            font-size: 2rem;
+            line-height: 30px;
+            font-weight: 400;
+        }
+    }
+}

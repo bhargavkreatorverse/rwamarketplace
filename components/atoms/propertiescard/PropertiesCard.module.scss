@@ -7,26 +7,19 @@
     padding: 12px 11px 31px;
     background-repeat: no-repeat;
     background-size: cover;
-    flex-basis: calc(25% - 13px);
+    width: 323px;
+    flex-shrink: 0;
 }
 
 .propertiesImageWrapper {
-    position: relative;
-    min-height: 299px;
-    padding: 20px;
-    border-radius: 30px;
-    background: linear-gradient(0deg, #000 0%, #000 100%), linear-gradient(180deg, #000 10.93%, rgba(0, 0, 0, 0.00) 13.85%);
+    padding-top: 20px;
 }
 
 .propertiesImageContent {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    max-width: auto;
-    max-height: auto;
+    height: auto;
     border-radius: 30px;
+    vertical-align: text-top;
 }
 
 .propertiesLableWrapper {
@@ -34,6 +27,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-inline: 20px;
+    margin-bottom: -45px;
 }
 
 .propertiesLable {
@@ -56,6 +51,7 @@
 
 .propertiesContentWrapper {
     padding-inline: 12px;
+    margin-top: -14px;
 
     h3 {
         color: $white;
@@ -67,10 +63,7 @@
 }
 
 .propertiesName {
-    color: $white;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: normal;
+    display: inline-block;
     padding: 6px 11px;
     border-radius: 4px;
     background: $blacktwo;
@@ -82,7 +75,6 @@
 
 .propertiesDetails {
     display: flex;
-    justify-content: space-between;
     gap: 103px;
 }
 
@@ -100,5 +92,117 @@
         font-size: 1.8rem;
         font-weight: 600;
         line-height: normal;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .propertiesCard {
+        padding: 14px 12px 32px;
+        width: 365px;
+        min-height: auto;
+    }
+
+    .propertiesImageWrapper {
+        padding-top: 22px;
+    }
+
+    .propertiesLableWrapper {
+        padding-inline: 22px;
+        margin-bottom: -47px;
+    }
+
+    .propertiesLable {
+        padding: 4px 10px;
+        font-size: 1.5rem;
+        line-height: 22px;
+    }
+
+    .propertiesDetails {
+        gap: 116px;
+    }
+
+    .propertiesContentWrapper {
+        padding-inline: 20px;
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            line-height: 28px;
+            padding-block: 12px;
+        }
+    }
+
+    .propertiesName {
+        padding: 6px 12px;
+        font-size: 1.4rem;
+        line-height: 20px;
+    }
+
+    .propertiesDetailsText {
+        p {
+            font-size: 1.4rem;
+            line-height: 20px;
+        }
+
+        h4 {
+            font-size: 2rem;
+            line-height: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .propertiesCard {
+        padding: 10px 10px 25px;
+        width: 272px;
+    }
+
+    .propertiesImageWrapper {
+        padding-top: 16px;
+    }
+
+    .propertiesLableWrapper {
+        padding-inline: 17px;
+        margin-bottom: -41px;
+    }
+
+    .propertiesLable {
+        padding: 2px 8px;
+        font-size: 1rem;
+        line-height: 16px;
+    }
+
+    .propertiesDetails {
+        gap: 86px;
+    }
+
+    .propertiesContentWrapper {
+        padding-inline: 11px;
+
+        h3 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+    .propertiesName {
+        padding: 5px 9px;
+        font-size: 1rem;
+        line-height: normal;
+    }
+
+    .propertiesDetailsText {
+        p {
+            font-size: 1rem;
+            line-height: normal;
+            padding-bottom: 4px;
+        }
+
+        h4 {
+            font-size: 1.6rem;
+            line-height: normal;
+            font-weight: 600;
+        }
     }
 }

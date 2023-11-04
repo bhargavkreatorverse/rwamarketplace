@@ -5,11 +5,11 @@ const PropertiesCard = () => {
     return (
         <div className={styles.propertiesCard}>
             <div className={styles.propertiesImageWrapper}>
-                <Image className={styles.propertiesImageContent} src='/properties/propertiesImage.png' alt='properties' width={301} height={299} />
                 <div className={styles.propertiesLableWrapper}>
                     <span className={styles.propertiesLable}>Savings</span>
                     <span className={styles.propertiesLable}>Credit Structure</span>
                 </div>
+                <Image className={styles.propertiesImageContent} src='/properties/propertiesImage.png' alt='properties' width={301} height={299} />                
             </div>
             <div className={styles.propertiesContentWrapper}>
                 <span className={styles.propertiesName}>Polygon </span>

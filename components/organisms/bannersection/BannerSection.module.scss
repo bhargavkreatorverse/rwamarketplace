@@ -8,3 +8,16 @@
     display: flex;
     gap: 28px;
 }
+
+@media screen and (max-width: 1100px) {
+    .bannerWrapper {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bannerWrapper {
+        gap: 20px;
+    }
+}
