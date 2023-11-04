@@ -1,0 +1,199 @@
+@import '@/styles/variables.scss';
+
+.propertiesCard {
+    min-height: 445px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(18, 18, 18, 0.00) 16.07%, #000 62.25%), url('/properties/propertiesBackground.png'), lightgray 50%;
+    padding: 12px 11px 31px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 323px;
+    flex-shrink: 0;
+}
+
+.propertiesImageWrapper {
+    position: relative;
+}
+
+.propertiesImageContent {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    vertical-align: text-top;
+}
+
+.propertiesLableWrapper {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px 0;
+}
+
+.propertiesLable {
+    padding: 2px 9px;
+    border-radius: 6px;
+    border: 1px solid $gray300;
+    background: $error25;
+    color: $gray700;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 20px;
+
+    &:first-of-type {
+        border-radius: 6px;
+        border: 1px solid $success300;
+        background: $success500;
+        color: $gray25;
+    }
+}
+
+.propertiesContentWrapper {
+    position: relative;
+    padding-inline: 12px;
+    margin-top: -14px;
+
+    h3 {
+        color: $white;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 24px;
+        padding-block: 13px;
+    }
+}
+
+.propertiesName {
+    display: inline-block;
+    padding: 6px 11px;
+    border-radius: 4px;
+    background: $blacktwo;
+    color: $white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.propertiesDetails {
+    display: flex;
+    gap: 103px;
+}
+
+.propertiesDetailsText {
+    p {
+        color: $white;
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 2px;
+    }
+
+    h4 {
+        color: $white;
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .propertiesCard {
+        padding: 14px 12px 32px;
+        width: 365px;
+        min-height: auto;
+    }
+
+    .propertiesLableWrapper {
+        padding: 22px 22px 0;
+    }
+
+    .propertiesLable {
+        padding: 4px 10px;
+        font-size: 1.5rem;
+        line-height: 22px;
+    }
+
+    .propertiesDetails {
+        gap: 116px;
+    }
+
+    .propertiesContentWrapper {
+        padding-inline: 20px;
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            line-height: 28px;
+            padding-block: 12px;
+        }
+    }
+
+    .propertiesName {
+        padding: 6px 12px;
+        font-size: 1.4rem;
+        line-height: 20px;
+    }
+
+    .propertiesDetailsText {
+        p {
+            font-size: 1.4rem;
+            line-height: 20px;
+        }
+
+        h4 {
+            font-size: 2rem;
+            line-height: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .propertiesCard {
+        padding: 10px 10px 25px;
+        width: 272px;
+    }
+
+    .propertiesLableWrapper {
+        padding: 16px 17px 0;
+    }
+
+    .propertiesLable {
+        padding: 2px 8px;
+        font-size: 1rem;
+        line-height: 16px;
+    }
+
+    .propertiesDetails {
+        gap: 86px;
+    }
+
+    .propertiesContentWrapper {
+        padding-inline: 11px;
+
+        h3 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+    .propertiesName {
+        padding: 5px 9px;
+        font-size: 1rem;
+        line-height: normal;
+    }
+
+    .propertiesDetailsText {
+        p {
+            font-size: 1rem;
+            line-height: normal;
+            padding-bottom: 4px;
+        }
+
+        h4 {
+            font-size: 1.6rem;
+            line-height: normal;
+            font-weight: 600;
+        }
+    }
+}

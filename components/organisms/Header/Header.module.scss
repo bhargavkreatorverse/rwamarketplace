@@ -1,0 +1,17 @@
+@import '@/styles/variables.scss';
+
+.headerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 12px;
+
+    @media screen and (max-width: 991px) {
+        padding-block: 20px;
+    }    
+    
+    @media (max-width: 768px) { 
+        padding-block: 24px; 
+        padding-inline: 24px;      
+    }
+}

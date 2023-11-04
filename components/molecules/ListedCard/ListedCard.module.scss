@@ -1,0 +1,83 @@
+@import '@/styles/variables.scss';
+
+.listedCardWrapper {
+    min-width: 676px;
+    height: 788px;
+    position: relative;
+    border-radius: 20px;
+    padding: 80px;
+}
+
+.listedCardBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.listedTextWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 76px;
+    position: relative;
+}
+
+.listedCardImage {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    width: auto;
+    height: auto;
+    border-bottom-right-radius: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+    .listedCardWrapper {
+        min-width: auto;
+        flex-basis: 55%;
+    }
+
+    .listedTextWrapper {
+        gap: 30px 40px;
+    }
+
+    .listedCardImage {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .listedCardWrapper {
+        flex-basis: 100%;
+        height: 891px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .listedCardWrapper {
+        padding: 90px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .listedCardWrapper {
+        padding: 32px;
+        height: 700px;
+    }
+
+    .listedTextWrapper {
+        gap: 17px 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .listedCardWrapper {
+        height: 500px;
+    }
+}

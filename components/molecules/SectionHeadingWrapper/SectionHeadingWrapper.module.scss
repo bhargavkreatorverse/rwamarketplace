@@ -1,0 +1,27 @@
+@import '@/styles/variables.scss';
+
+.sectionHeadingWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    padding-bottom: 24px;
+
+    h2 {
+        margin-right: auto;
+        color: $gray900;
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding-inline: 8px;
+        padding-bottom: 19px;
+
+        h2 {
+            font-size: 1.8rem;
+            line-height: 28px;
+        }
+    }
+}
