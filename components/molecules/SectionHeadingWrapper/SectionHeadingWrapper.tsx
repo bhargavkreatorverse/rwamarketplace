@@ -1,6 +1,6 @@
-import styles from './SectionHeadingWrapper.module.scss';
 import ArrowButton from '../../atoms/ArrowButton/ArrowButton';
 import ViewAllButton from '../../atoms/ViewAllButton/ViewallButton';
+import styles from './SectionHeadingWrapper.module.scss';
 
 interface SectionHeadingWrapperProps {
     HeadingText: string;
