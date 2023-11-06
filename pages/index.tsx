@@ -5,8 +5,8 @@ import FixedIncomeDealsSection from "@/components/organisms/FixedIncomeDealsSect
 export default function Home() {
   return (
     <>
-      <BannerSection />
-      <FixedIncomeDealsSection />
+      <BannerSection data-testid="banner-section" />
+      <FixedIncomeDealsSection data-testid="fixed-income-deals-section" />
     </>
   )
 }
